@@ -7,7 +7,7 @@
   "license": "MIT",
   "repository": {
     "type": "git",
-    "url": "https://github.com/red-cup-engineering/deployment-formation-contracts.git"
+    "url": "git+https://github.com/red-cup-engineering/deployment-services-section.git"
   },
   "exports": {
     ".": "./src/formation.mjs",
