@@ -1,5 +1,5 @@
 {
-  "name": "@red-cup-engineering/deployment-services-section",
+  "name": "@red-cup-engineering/deployment-engineering-services-section",
   "version": "0.1.1",
   "private": false,
   "type": "module",
@@ -7,7 +7,7 @@
   "license": "MIT",
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/red-cup-engineering/deployment-services-section.git"
+    "url": "git+https://github.com/red-cup-engineering/deployment-engineering-services-section.git"
   },
   "exports": {
     ".": "./src/formation.mjs",
