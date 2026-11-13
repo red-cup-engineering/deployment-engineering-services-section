@@ -1,5 +1,5 @@
 import { refuse } from "./refusal.mjs";
-import { isObjectRecord as isRecord } from "@red-cup-engineering/json-services-section";
+import { isObjectRecord as isRecord } from "@red-cup-engineering/json-engineering-services-section";
 
 export { isRecord };
 
