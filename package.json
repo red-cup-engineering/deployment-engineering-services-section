@@ -1,0 +1,41 @@
+{
+  "name": "@red-cup-engineering/deployment-engineering-services-section",
+  "version": "0.1.3-dev.0",
+  "private": false,
+  "type": "module",
+  "description": "Pure, provider-neutral public delivery formation contracts",
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/red-cup-engineering/deployment-engineering-services-section.git"
+  },
+  "exports": {
+    ".": "./src/formation.mjs",
+    "./canonical-record": "./src/canonical-record.mjs",
+    "./compose": "./src/compose-formation.mjs",
+    "./receipt-vector": "./src/receipt-vector.mjs",
+    "./laws": "./src/laws.mjs",
+    "./refusal": "./src/refusal.mjs",
+    "./package.json": "./package.json"
+  },
+  "files": [
+    "src",
+    "contracts",
+    "schemas",
+    "README.md",
+    "LICENSE"
+  ],
+  "engines": {
+    "node": ">=22"
+  },
+  "sideEffects": false,
+  "dependencies": {
+    "@red-cup-engineering/json-engine": "^0.5.0",
+    "@red-cup-engineering/uri-engineering-services-section": "^0.1.5",
+    "@red-cup-engineering/semiotic-content-address-system": "^0.1.5"
+  },
+  "funding": {
+    "type": "individual",
+    "url": "https://github.com/561-group/.github/blob/main/TIPS.md"
+  }
+}
