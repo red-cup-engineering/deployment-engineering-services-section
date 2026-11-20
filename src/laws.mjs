@@ -1,5 +1,6 @@
+import { isRecord } from "@red-cup-engineering/signcell/values";
 import { refuse } from "./refusal.mjs";
-import { isObjectRecord as isRecord } from "@red-cup-engineering/json-engine";
+
 
 export { isRecord };
 
