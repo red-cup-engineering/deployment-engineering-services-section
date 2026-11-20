@@ -1,4 +1,5 @@
-import { RESIDUE_DIMENSIONS, RESIDUE_STATUSES, digestBound, ensureClean, isRecord } from "./laws.mjs";
+import { isRecord } from "@red-cup-engineering/signcell/values";
+import { RESIDUE_DIMENSIONS, RESIDUE_STATUSES, digestBound, ensureClean } from "./laws.mjs";
 import { refuse } from "./refusal.mjs";
 
 const receiptBindings = ["formationDigest", "artifactDigest", "targetDigest", "artifactAttestationDigest", "receiptDigest"];

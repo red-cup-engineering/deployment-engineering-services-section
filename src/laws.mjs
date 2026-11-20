@@ -2,7 +2,7 @@ import { isRecord } from "@red-cup-engineering/signcell/values";
 import { refuse } from "./refusal.mjs";
 
 
-export { isRecord };
+
 
 export const RESIDUE_DIMENSIONS = Object.freeze([
   "artifactByteParity", "requestedProviderRoute", "effectScopeAndCustody",

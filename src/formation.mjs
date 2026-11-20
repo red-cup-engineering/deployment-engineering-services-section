@@ -1,4 +1,5 @@
-import { closedStage, digestBound, ensureClean, isRecord, sameBinding } from "./laws.mjs";
+import { isRecord } from "@red-cup-engineering/signcell/values";
+import { closedStage, digestBound, ensureClean, sameBinding } from "./laws.mjs";
 import { refuse } from "./refusal.mjs";
 
 const bindings = ["formationDigest", "artifactDigest", "targetDigest"];
