@@ -1,5 +1,5 @@
-import { semanticId } from "@red-cup-engineering/semiotic-content-address-system";
-import { isNiUri } from "@red-cup-engineering/uri-engineering-services-section/ni-uri";
+import { semanticId, isNiUri } from "@red-cup-engineering/semiotic-content-address-system";
+
 
 /** A deployment record's identity: its semiotic content address. */
 export function identifyDeploymentRecord(record) {
